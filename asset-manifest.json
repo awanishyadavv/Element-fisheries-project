@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Element-fisheries-project/static/css/main.657b889d.css",
+    "main.js": "/Element-fisheries-project/static/js/main.362413c2.js",
+    "index.html": "/Element-fisheries-project/index.html",
+    "main.657b889d.css.map": "/Element-fisheries-project/static/css/main.657b889d.css.map",
+    "main.362413c2.js.map": "/Element-fisheries-project/static/js/main.362413c2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.657b889d.css",
+    "static/js/main.362413c2.js"
+  ]
+}
