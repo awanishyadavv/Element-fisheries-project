@@ -1,25 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { 
+    BrowserRouter,
+    Routes,
+    Route
+} from "react-router-dom";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+// import Components
+import Navbar from "./components/Assets/NavBar/Navbar";
+import Devices from "./components/Devices";
+import MarketPlace from "./components/MarketPlace";
+import Learning from "./components/Learning";
+import Buletten from "./components/Buletten";
+import ContactUs from "./components/ContactUs";
+import AboutUs from "./components/AboutUs";
+import WaterLevel from "./components/Assets/WaterLevel/Level";
+import Control from "./components/Control";
+
+
+
+const App = () => {
+    return (
+        <>
+        <div className="navigation">
+        <Navbar />
+        </div>
+        <Routes>
+           <Route path="/" element={<Control />}/>
+           <Route path="/Devices" element={<Devices/>}/>
+           <Route path="/marketplace" element={<MarketPlace />}/>
+           <Route path="/learning" element={<Learning />}/>
+           <Route path="/buletten" element={<Buletten />}/>
+           <Route path="/contactus" element={<ContactUs />}/>
+           <Route path="/aboutus" element={<AboutUs />}/>
+        </Routes>
+        </>
+    );
 }
-
 export default App;

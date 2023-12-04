@@ -1,0 +1,12 @@
+.container{
+    border: 6px solid #00828c;
+    margin-top: 3rem;
+    margin-left: 5rem;
+    height: 35rem;
+    width: 10rem;
+    border-top: none;
+    display: flex;
+    margin-bottom: 2rem;
+    border-radius: 6px;
+    background-color: rgb(239, 238, 238);
+}

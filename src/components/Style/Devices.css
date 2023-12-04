@@ -1,0 +1,9 @@
+.graph{
+    margin-top: 5rem;
+    width: 88rem;
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 3rem;
+    justify-content: space-between;
+  }

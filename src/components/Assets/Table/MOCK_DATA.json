@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "parameter": "TEMPRATURE",
+    "min_value": "21°C",
+    "max_value": "31°C",
+    "current_value": 36,
+    "action": " TURN OFF",
+    "actuator_status": "On"
+  },
+  {
+    "id": 2,
+    "parameter": "TURBIDITY",
+    "min_value": "30 CM",
+    "max_value": "45 CM",
+    "current_value": "46",
+    "action": "TURN ON",
+    "actuator_status": "Off"
+  },
+  {
+    "id": 3,
+    "parameter": "AMMONIA",
+    "min_value": "0 PPM",
+    "max_value": "1-2 PPM",
+    "current_value": "0 PPM",
+    "action": "TURN ON",
+    "actuator_status": "Off"
+  },
+  {
+    "id": 4,
+    "parameter": "pH LEVEL",
+    "min_value": "6.8",
+    "max_value": "8.0",
+    "current_value": "7.8",
+    "action": "TURN ON",
+    "actuator_status": "Off"
+  },
+  {
+    "id": 5,
+    "parameter": "TDS",
+    "min_value": "600 PPM",
+    "max_value": "1200 PPM",
+    "current_value": "700 PPM",
+    "action": "TURN OFF",
+    "actuator_status": "On"
+  },
+  {
+    "id": 6,
+    "parameter": "SALINITY",
+    "min_value": "10",
+    "max_value": "20",
+    "current_value": "16",
+    "action": "TURN ON",
+    "actuator_status": "Off"
+  }
+]

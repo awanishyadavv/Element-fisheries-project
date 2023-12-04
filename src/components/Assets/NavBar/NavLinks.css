@@ -1,0 +1,42 @@
+/* NavLink Slider Right side */
+.menu-slider {
+    position: absolute;
+    color: black;
+    top: 0;
+    right: 0;
+    width: 12rem;
+    height: 100vh;
+    background-color: #00828c;
+    text-decoration: none;
+    z-index: 9999;
+}
+
+.close {
+    font-size: 3rem;
+    /* font-weight: semi-bold; */
+    color: white;
+    cursor: pointer;
+    margin-left: 2rem;
+}
+
+.nav-links-in-slider {
+    /* border: 1px solid red; */
+    display: flex;
+    margin-top: 0.8rem;
+    flex-direction: column;
+    /* transition: 5s ease; */
+}
+
+.nav-link-slider {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 1.5rem;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link-slider:hover {
+    background-color: black;
+}

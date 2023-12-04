@@ -1,0 +1,32 @@
+.contactus-container {
+    /* border: 1px solid red; */
+    margin-top: 6rem;
+    margin-left: 10rem;
+    width: 75rem;
+    height:38rem ;
+    display: flex;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 6px;
+    background-color: #fff;
+}
+.contactus-form{
+    border: 1px solid green;
+    width: 42rem;
+    height:35.6rem ;
+    border-radius: 6px;
+}
+
+.contactus-image{
+    /* border: 1px solid green; */
+    width: 30rem;
+    height:35.6rem ;
+    border-radius: 6px;
+    overflow: hidden;
+    /* box-shadow: 2px 2px 12px 12px rgb(154, 31, 31); */
+}
+img{
+    max-width: 100%;
+}

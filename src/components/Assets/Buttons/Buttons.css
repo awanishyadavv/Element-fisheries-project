@@ -1,0 +1,53 @@
+.button {
+    padding: 15px 50px 15px 25px;
+    border: 2px solid black;
+    border-right: 0;
+    position: absolute;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: grey;
+}
+
+.button:before {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 2px;
+    height: 30%;
+    background: black;
+}
+
+.button:after { 
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 2px;
+    height: 30%;
+    background: black;
+}
+
+.button-span {
+    display: block;
+    width:4rem;
+    position: absolute;
+    margin-left: 5rem;
+    margin-top: 1.2rem;
+    cursor: pointer;
+    background: url('./link-arw.png')
+    
+    ;
+    -webkit-transition: all .4s ease-in;
+    -moz-transition: all .4s ease-in;
+    -o-transition: all .4s ease-in;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.button:hover .button-span:hover{
+    width: 7rem;
+    opacity: 1;
+}

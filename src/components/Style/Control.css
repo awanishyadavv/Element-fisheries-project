@@ -1,0 +1,17 @@
+.control-container{
+    margin-top: 4.5rem;
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.table-container{
+    width: 75.5rem;
+    margin-left: 4rem;
+    /* border: 10px solid green; */
+}
+.action-center{
+    height: 39.8rem;
+    width: 100%;
+    /* border: 1px solid black; */
+}

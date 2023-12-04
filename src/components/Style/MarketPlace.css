@@ -1,0 +1,27 @@
+.marketplace{
+    display: flex;
+}
+.products{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 1rem;
+    margin-top: 5rem;
+    margin-left: 1rem;
+}
+
+.filter-marketplace{
+    border: 1px solid red;
+    margin-top: 5rem;
+    width: 45rem;
+    margin-left: 0.5rem;
+}
+@media (max-width:580px) {
+    .products{
+        margin-left: 0;
+        /* height: 90vh; */
+        justify-content: center;
+
+    }
+}
